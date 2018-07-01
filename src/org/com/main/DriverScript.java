@@ -57,7 +57,7 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
  * Class Description: DriverScript is the main class which controls the whole execution of this project.
  * Created on 		: 9th July 2017
  * Last Modified On : Nil
- * @author 			:	Amuthan Sakthivel
+ * @author 			:	Amuthan 
  * @version			: 1.0  
  ******************************************************************************************************/
 
