@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite">
+<listeners>
+<listener class-name="org.com.listeners.ListenersClass"></listener>
+</listeners>
+  <test name="NewDemo Tours Test">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="org.com.main.DriverScript"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

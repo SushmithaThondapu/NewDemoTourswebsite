@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RegressionSuite]">
+  <listeners>
+    <listener class-name="org.com.listeners.ListenersClass"/>
+  </listeners>
+  <test name="NewDemo Tours Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="org.com.main.DriverScript">
+        <methods>
+          <include name="teardown"/>
+          <include name="testcase3"/>
+          <include name="setup"/>
+          <include name="testcase2"/>
+          <include name="initializeReports"/>
+          <include name="closeReports"/>
+        </methods>
+      </class> <!-- org.com.main.DriverScript -->
+    </classes>
+  </test> <!-- NewDemo Tours Test(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->

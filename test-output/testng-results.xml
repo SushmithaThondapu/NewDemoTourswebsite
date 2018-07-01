@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="1" ignored="0" total="4" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[[TestResult name=initializeReports status=SUCCESS method=DriverScript.initializeReports()[pri:0, instance:org.com.main.DriverScript@61832929] output={null}] 1]]>
+    </line>
+    <line>
+      <![CDATA[[TestResult name=setup status=SUCCESS method=DriverScript.setup(java.lang.String)[pri:0, instance:org.com.main.DriverScript@61832929] output={null}] 1]]>
+    </line>
+    <line>
+      <![CDATA[[TestResult name=testcase1 status=SUCCESS method=DriverScript.testcase1()[pri:1, instance:org.com.main.DriverScript@61832929] output={null}] 1]]>
+    </line>
+    <line>
+      <![CDATA[[TestResult name=teardown status=SUCCESS method=DriverScript.teardown(org.testng.ITestResult)[pri:0, instance:org.com.main.DriverScript@61832929] output={null}] 1]]>
+    </line>
+    <line>
+      <![CDATA[[TestResult name=setup status=SUCCESS method=DriverScript.setup(java.lang.String)[pri:0, instance:org.com.main.DriverScript@61832929] output={null}] 1]]>
+    </line>
+    <line>
+      <![CDATA[[TestResult name=testcase2 status=SKIP method=DriverScript.testcase2()[pri:2, instance:org.com.main.DriverScript@61832929] output={null}] 1]]>
+    </line>
+    <line>
+      <![CDATA[[TestResult name=teardown status=SUCCESS method=DriverScript.teardown(org.testng.ITestResult)[pri:0, instance:org.com.main.DriverScript@61832929] output={null}] 1]]>
+    </line>
+    <line>
+      <![CDATA[[TestResult name=setup status=SUCCESS method=DriverScript.setup(java.lang.String)[pri:0, instance:org.com.main.DriverScript@61832929] output={null}] 1]]>
+    </line>
+    <line>
+      <![CDATA[[TestResult name=testcase2 status=FAILURE method=DriverScript.testcase2()[pri:2, instance:org.com.main.DriverScript@61832929] output={null}] 1]]>
+    </line>
+    <line>
+      <![CDATA[[TestResult name=teardown status=SUCCESS method=DriverScript.teardown(org.testng.ITestResult)[pri:0, instance:org.com.main.DriverScript@61832929] output={null}] 1]]>
+    </line>
+    <line>
+      <![CDATA[[TestResult name=setup status=SUCCESS method=DriverScript.setup(java.lang.String)[pri:0, instance:org.com.main.DriverScript@61832929] output={null}] 1]]>
+    </line>
+    <line>
+      <![CDATA[[TestResult name=testcase3 status=SKIP method=DriverScript.testcase3()[pri:3, instance:org.com.main.DriverScript@61832929] output={null}] 1]]>
+    </line>
+    <line>
+      <![CDATA[[TestResult name=teardown status=SUCCESS method=DriverScript.teardown(org.testng.ITestResult)[pri:0, instance:org.com.main.DriverScript@61832929] output={null}] 1]]>
+    </line>
+    <line>
+      <![CDATA[[TestResult name=closeReports status=SUCCESS method=DriverScript.closeReports()[pri:0, instance:org.com.main.DriverScript@61832929] output={null}] 1]]>
+    </line>
+  </reporter-output>
+  <suite name="RegressionSuite" duration-ms="88858" started-at="2018-03-25T04:20:18Z" finished-at="2018-03-25T04:21:46Z">
+    <groups>
+    </groups>
+    <test name="NewDemo Tours Test" duration-ms="88858" started-at="2018-03-25T04:20:18Z" finished-at="2018-03-25T04:21:46Z">
+      <class name="org.com.main.DriverScript">
+        <test-method status="PASS" signature="initializeReports()[pri:0, instance:org.com.main.DriverScript@61832929]" name="initializeReports" is-config="true" duration-ms="207" started-at="2018-03-25T09:50:17Z" finished-at="2018-03-25T09:50:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[TestResult name=initializeReports status=SUCCESS method=DriverScript.initializeReports()[pri:0, instance:org.com.main.DriverScript@61832929] output={null}] 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- initializeReports -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:org.com.main.DriverScript@61832929]" name="setup" is-config="true" duration-ms="4882" started-at="2018-03-25T09:50:18Z" finished-at="2018-03-25T09:50:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[TestResult name=setup status=SUCCESS method=DriverScript.setup(java.lang.String)[pri:0, instance:org.com.main.DriverScript@61832929] output={null}] 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testcase1()[pri:1, instance:org.com.main.DriverScript@61832929]" name="testcase1" duration-ms="22647" started-at="2018-03-25T09:50:22Z" finished-at="2018-03-25T09:50:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[TestResult name=testcase1 status=SUCCESS method=DriverScript.testcase1()[pri:1, instance:org.com.main.DriverScript@61832929] output={null}] 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:org.com.main.DriverScript@61832929]" name="teardown" is-config="true" duration-ms="933" started-at="2018-03-25T09:50:45Z" finished-at="2018-03-25T09:50:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase1 status=SUCCESS method=DriverScript.testcase1()[pri:1, instance:org.com.main.DriverScript@61832929] output=[TestResult name=testcase1 status=SUCCESS method=DriverScript.testcase1()[pri:1, instance:org.com.main.DriverScript@61832929] output={null}] 1]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[TestResult name=teardown status=SUCCESS method=DriverScript.teardown(org.testng.ITestResult)[pri:0, instance:org.com.main.DriverScript@61832929] output={null}] 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:org.com.main.DriverScript@61832929]" name="setup" is-config="true" duration-ms="9034" started-at="2018-03-25T09:50:46Z" finished-at="2018-03-25T09:50:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[TestResult name=setup status=SUCCESS method=DriverScript.setup(java.lang.String)[pri:0, instance:org.com.main.DriverScript@61832929] output={null}] 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="testcase2()[pri:2, instance:org.com.main.DriverScript@61832929]" name="testcase2" duration-ms="26328" started-at="2018-03-25T09:50:55Z" finished-at="2018-03-25T09:51:21Z">
+          <exception class="java.lang.reflect.InvocationTargetException">
+            <full-stacktrace>
+              <![CDATA[java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.com.main.DriverScript.testcase2(DriverScript.java:144)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+Caused by: java.lang.NullPointerException
+	at java.util.regex.Matcher.getTextLength(Unknown Source)
+	at java.util.regex.Matcher.reset(Unknown Source)
+	at java.util.regex.Matcher.<init>(Unknown Source)
+	at java.util.regex.Pattern.matcher(Unknown Source)
+	at com.aventstack.extentreports.utils.ExceptionUtil.getExceptionHeadline(ExceptionUtil.java:25)
+	at com.aventstack.extentreports.ExtentTest.log(ExtentTest.java:399)
+	at com.aventstack.extentreports.ExtentTest.fail(ExtentTest.java:635)
+	at com.aventstack.extentreports.ExtentTest.fail(ExtentTest.java:647)
+	at org.com.reusablefunctions.Keywords2.selectfromplace(Keywords2.java:63)
+	... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.reflect.InvocationTargetException -->
+          <reporter-output>
+            <line>
+              <![CDATA[[TestResult name=testcase2 status=SKIP method=DriverScript.testcase2()[pri:2, instance:org.com.main.DriverScript@61832929] output={null}] 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:org.com.main.DriverScript@61832929]" name="teardown" is-config="true" duration-ms="368" started-at="2018-03-25T09:51:21Z" finished-at="2018-03-25T09:51:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase2 status=SKIP method=DriverScript.testcase2()[pri:2, instance:org.com.main.DriverScript@61832929] output=[TestResult name=testcase2 status=SKIP method=DriverScript.testcase2()[pri:2, instance:org.com.main.DriverScript@61832929] output={null}] 1]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[TestResult name=teardown status=SUCCESS method=DriverScript.teardown(org.testng.ITestResult)[pri:0, instance:org.com.main.DriverScript@61832929] output={null}] 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:org.com.main.DriverScript@61832929]" name="setup" is-config="true" duration-ms="4179" started-at="2018-03-25T09:51:22Z" finished-at="2018-03-25T09:51:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[TestResult name=setup status=SUCCESS method=DriverScript.setup(java.lang.String)[pri:0, instance:org.com.main.DriverScript@61832929] output={null}] 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="testcase2()[pri:2, instance:org.com.main.DriverScript@61832929]" name="testcase2" duration-ms="14168" started-at="2018-03-25T09:51:26Z" finished-at="2018-03-25T09:51:40Z">
+          <exception class="java.lang.reflect.InvocationTargetException">
+            <full-stacktrace>
+              <![CDATA[java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.com.main.DriverScript.testcase2(DriverScript.java:144)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:998)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1200)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+Caused by: java.lang.NullPointerException
+	at java.util.regex.Matcher.getTextLength(Unknown Source)
+	at java.util.regex.Matcher.reset(Unknown Source)
+	at java.util.regex.Matcher.<init>(Unknown Source)
+	at java.util.regex.Pattern.matcher(Unknown Source)
+	at com.aventstack.extentreports.utils.ExceptionUtil.getExceptionHeadline(ExceptionUtil.java:25)
+	at com.aventstack.extentreports.ExtentTest.log(ExtentTest.java:399)
+	at com.aventstack.extentreports.ExtentTest.fail(ExtentTest.java:635)
+	at com.aventstack.extentreports.ExtentTest.fail(ExtentTest.java:647)
+	at org.com.reusablefunctions.Keywords2.selectfromplace(Keywords2.java:63)
+	... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.reflect.InvocationTargetException -->
+          <reporter-output>
+            <line>
+              <![CDATA[[TestResult name=testcase2 status=FAILURE method=DriverScript.testcase2()[pri:2, instance:org.com.main.DriverScript@61832929] output={null}] 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:org.com.main.DriverScript@61832929]" name="teardown" is-config="true" duration-ms="503" started-at="2018-03-25T09:51:41Z" finished-at="2018-03-25T09:51:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase2 status=FAILURE method=DriverScript.testcase2()[pri:2, instance:org.com.main.DriverScript@61832929] output=[TestResult name=testcase2 status=FAILURE method=DriverScript.testcase2()[pri:2, instance:org.com.main.DriverScript@61832929] output={null}] 1]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[TestResult name=teardown status=SUCCESS method=DriverScript.teardown(org.testng.ITestResult)[pri:0, instance:org.com.main.DriverScript@61832929] output={null}] 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:org.com.main.DriverScript@61832929]" name="setup" is-config="true" duration-ms="5027" started-at="2018-03-25T09:51:41Z" finished-at="2018-03-25T09:51:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[TestResult name=setup status=SUCCESS method=DriverScript.setup(java.lang.String)[pri:0, instance:org.com.main.DriverScript@61832929] output={null}] 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="testcase3()[pri:3, instance:org.com.main.DriverScript@61832929]" name="testcase3" duration-ms="2" started-at="2018-03-25T09:51:46Z" finished-at="2018-03-25T09:51:46Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipped Intensionally]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipped Intensionally
+	at org.com.main.DriverScript.testcase3(DriverScript.java:154)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+            <line>
+              <![CDATA[[TestResult name=testcase3 status=SKIP method=DriverScript.testcase3()[pri:3, instance:org.com.main.DriverScript@61832929] output={null}] 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testcase3 -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:org.com.main.DriverScript@61832929]" name="teardown" is-config="true" duration-ms="140" started-at="2018-03-25T09:51:46Z" finished-at="2018-03-25T09:51:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase3 status=SKIP method=DriverScript.testcase3()[pri:3, instance:org.com.main.DriverScript@61832929] output=[TestResult name=testcase3 status=SKIP method=DriverScript.testcase3()[pri:3, instance:org.com.main.DriverScript@61832929] output={null}] 1]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[TestResult name=teardown status=SUCCESS method=DriverScript.teardown(org.testng.ITestResult)[pri:0, instance:org.com.main.DriverScript@61832929] output={null}] 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="closeReports()[pri:0, instance:org.com.main.DriverScript@61832929]" name="closeReports" is-config="true" duration-ms="412" started-at="2018-03-25T09:51:47Z" finished-at="2018-03-25T09:51:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[TestResult name=closeReports status=SUCCESS method=DriverScript.closeReports()[pri:0, instance:org.com.main.DriverScript@61832929] output={null}] 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeReports -->
+      </class> <!-- org.com.main.DriverScript -->
+    </test> <!-- NewDemo Tours Test -->
+  </suite> <!-- RegressionSuite -->
+</testng-results>
